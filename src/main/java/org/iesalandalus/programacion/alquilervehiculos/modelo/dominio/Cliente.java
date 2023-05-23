@@ -13,9 +13,9 @@ public class Cliente {
 	 * ATRIBUTOS Y CONSTANTES
 	 *************************************************/
 
-	private static final String ER_NOMBRE = "^[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+((\\s[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)*)";
-	private static final String ER_DNI = "^\\d{8}[A-Z]";
-	private static final String ER_TELEFONO = "^[679]\\d{8}";
+	public static final String ER_NOMBRE = "^[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+((\\s[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)*)";
+	public static final String ER_DNI = "^\\d{8}[A-Z]";
+	public static final String ER_TELEFONO = "^[679]\\d{8}";
 
 	private String nombre;
 	private String dni;

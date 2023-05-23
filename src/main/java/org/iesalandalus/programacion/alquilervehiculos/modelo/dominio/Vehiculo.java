@@ -15,8 +15,8 @@ public abstract class Vehiculo {
 	private String marca;
 	private String modelo;
 	private String matricula;
-	private static final String ER_MARCA = "^[A-Z][a-z]+|^[A-Z]+|^[A-Z][a-z]+\s[A-Z][a-z]+|^[A-Z][a-z]+-[A-Z][a-z]*|^[A-Z][a-z]+[A-Z][a-z]+";
-	private static final String ER_MATRICULA = "\\d{4}\s{0,1}([B-D]|[F-H]|[J-N]|[P-T]|[V-Z]){3}{4}";
+	public static final String ER_MARCA = "^[A-Z][a-z]+|^[A-Z]+|^[A-Z][a-z]+\s[A-Z][a-z]+|^[A-Z][a-z]+-[A-Z][a-z]*|^[A-Z][a-z]+[A-Z][a-z]+";
+	public static final String ER_MATRICULA = "\\d{4}\s{0,1}([B-D]|[F-H]|[J-N]|[P-T]|[V-Z]){3}{4}";
 
 	/**************************************************
 	 * CONSTRUCTORES

@@ -12,7 +12,7 @@ import org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Vehiculo;
 
 public enum TipoVehiculo {
 
-	TURISMO("Turismo"), AUTOBUS("Autobus"), FURGONETA("Furgoneta");
+	TURISMO("Turismo"), AUTOBUS("Autobús"), FURGONETA("Furgoneta");
 
 	private String nombre;
 

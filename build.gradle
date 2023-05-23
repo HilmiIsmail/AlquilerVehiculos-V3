@@ -7,8 +7,13 @@
  */
 
 plugins {
-    // Apply the java-library plugin for API and implementation separation.
-    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+javafx {
+    version = "19"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
 }
 
 repositories {
@@ -42,6 +47,7 @@ apply plugin: 'application'
 mainClassName = 'org.iesalandalus.programacion.alquilervehiculos.MainApp'
 
 jar {
+duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 	manifest {
 		attributes 'Main-Class': 'org.iesalandalus.programacion.alquilervehiculos.MainApp'
 	}

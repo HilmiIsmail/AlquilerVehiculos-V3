@@ -20,7 +20,7 @@ public abstract class Vista {
 	 * METODOS
 	 ***************************************************/
 	
-	protected Controlador getControlador() {
+	public Controlador getControlador() {
 		return controlador;
 	}
 
